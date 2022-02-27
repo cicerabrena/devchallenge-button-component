@@ -6,17 +6,21 @@ import Style from './Button.style';
 
 const Button = function buttonComponent({
 	variant,
-	children,
 	disableShadow,
 	disabled,
 	startIcon,
 	endIcon,
+	size,
+	color,
+	children,
 }) {
 	return (
 		<Style.Button
 			variant={variant}
 			disableShadow={disableShadow}
 			disabled={disabled}
+			size={size}
+			color={color}
 		>
 			{startIcon && <Icon className="start">{startIcon}</Icon>}
 			{children}
@@ -33,6 +37,8 @@ Button.propTypes = {
 	disabled: PropTypes.bool,
 	startIcon: PropTypes.string,
 	endIcon: PropTypes.string,
+	size: PropTypes.string,
+	color: PropTypes.string,
 	children: PropTypes.string,
 };
 
@@ -42,5 +48,7 @@ Button.defaultProps = {
 	disabled: false,
 	startIcon: '',
 	endIcon: '',
+	size: 'md',
+	color: 'default',
 	children: 'Default',
 };
