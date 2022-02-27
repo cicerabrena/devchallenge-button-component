@@ -6,7 +6,9 @@ function App() {
 	return (
 		<>
 			<GlobalSytle />
-			<Button>Botão para teste</Button>
+			<Button startIcon="star" endIcon="email">
+				Default
+			</Button>
 		</>
 	);
 }

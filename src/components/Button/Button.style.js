@@ -3,6 +3,8 @@ import styled, { css } from 'styled-components';
 const Style = {};
 
 Style.Button = styled.button`
+	display: inline-flex;
+	align-items: center;
 	padding: 0.6rem 1rem;
 	border: none;
 	border-radius: 0.5rem;
@@ -27,6 +29,10 @@ Style.Button = styled.button`
 					:focus {
 						background-color: rgba(41, 98, 255, 0.1);
 					}
+
+					&:disabled {
+						color: #9e9e9e;
+					}
 				`;
 			case 'outline':
 				return css`
@@ -49,9 +55,25 @@ Style.Button = styled.button`
 					&:focus {
 						background-color: #aeaeae;
 					}
+
+					&:disabled {
+						background-color: #e0e0e0;
+						font-weight: bold;
+						color: #9e9e9e;
+					}
 				`;
 		}
 	}}
+
+	span {
+		&.start {
+			margin-right: 0.4rem;
+		}
+		&.end {
+			margin-left: 0.4rem;
+		}
+		font-size: 1rem;
+	}
 `;
 
 export default Style;
