@@ -3,6 +3,27 @@ import Button from '..';
 export default {
 	component: Button,
 	title: 'Button/Variant',
+	argTypes: {
+		variant: {
+			options: ['default', 'outline', 'text'],
+			control: { type: 'select' },
+		},
+		color: {
+			table: {
+				disable: true,
+			},
+		},
+		startIcon: {
+			table: {
+				disable: true,
+			},
+		},
+		endIcon: {
+			table: {
+				disable: true,
+			},
+		},
+	},
 };
 
 const Template = function Template(args) {

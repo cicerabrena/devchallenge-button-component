@@ -3,6 +3,33 @@ import Button from '..';
 export default {
 	component: Button,
 	title: 'Button/Icon',
+	argTypes: {
+		variant: {
+			table: {
+				disable: true,
+			},
+		},
+		disableShadow: {
+			table: {
+				disable: true,
+			},
+		},
+		disabled: {
+			table: {
+				disable: true,
+			},
+		},
+		color: {
+			table: {
+				disable: true,
+			},
+		},
+		children: {
+			table: {
+				disable: true,
+			},
+		},
+	},
 };
 
 const Template = function Template(args) {
