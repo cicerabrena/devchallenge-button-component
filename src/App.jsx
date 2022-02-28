@@ -6,7 +6,7 @@ function App() {
 	return (
 		<>
 			<GlobalSytle />
-			<Button startIcon="star" endIcon="email">
+			<Button startIcon="star" color="danger">
 				Default
 			</Button>
 		</>
