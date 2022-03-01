@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Demo on Vercel" src="https://imagizer.imageshack.com/img922/2208/u63spc.gif" />
+    <img alt="Demo on Vercel" src="https://i.postimg.cc/BbHkgXDy/button-component.gif" />
     <br>
     Button Component
 </h1>
