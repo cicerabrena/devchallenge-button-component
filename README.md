@@ -14,6 +14,7 @@
   <a href="#zap-tech-stack">Tech Stack</a> •
   <a href="#question-why-storybook">Why Storybook?</a> •
   <a href="#technologist-how-to-use">How to Use</a> •
+  <a href="#hugs-acknowledgements">Acknowledgements</a> •
   <a href="#memo-license">License</a>
 </p>
 
@@ -57,7 +58,7 @@ $ yarn
 $ yarn storybook
 ```
 
-## Acknowledgements
+## :hugs: Acknowledgements
 
 - [DevChallenge.io][devchallenges]
 
@@ -69,4 +70,4 @@ This project is under the MIT license. See the [LICENSE]() for more information.
 
 Made with ♥ by Cícera Brena :wave: [Get in touch!](https://www.linkedin.com/in/cicerabrens/)
 
-[devchallenges]: (https://devchallenges.io)
+[devchallenges]: https://devchallenges.io
