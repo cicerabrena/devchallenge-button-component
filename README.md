@@ -5,7 +5,7 @@
 </h1>
 <p align="center">
   <a href="https://devchallenge-button-component.vercel.app/">
-    ![GitHub deployments](https://img.shields.io/github/deployments/cicerabrena/devchallenge-button-component/production?label=vercel&logo=vercel&logoColor=white&style=for-the-badge)
+    <img alt="GitHub deployments" src="https://img.shields.io/github/deployments/cicerabrena/devchallenge-button-component/production?label=vercel&logo=vercel&logoColor=white&style=for-the-badge">
   </a>
 </p>
 
