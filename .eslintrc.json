@@ -16,5 +16,5 @@
 		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
 		"react/react-in-jsx-scope": "off"
 	},
-	"ignorePatterns": ["*.test.js", ".test.tsx"]
+	"ignorePatterns": ["*.test.js", ".test.tsx", "storybook-static/*"]
 }
